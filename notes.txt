@@ -1,0 +1,37 @@
+full widht devided into 12 columns
+set width
+
+<div clas="col-4">column1</div>
+<div clas="col-3">column1</div>
+<div clas="col-5">column1</div>
+
+========
+breakpoints
+xs, xl,
+sm; md; lg
+
+below will break when screen become small or less
+
+<div clas="col-sm">column1</div>
+<div clas="col-sm">column1</div>
+
+====
+
+set width with breakpoints
+when screen is bigger than small, occupies 4,6 and 2 cols
+if small or less, it breaks
+
+<div clas="col-sm-4">column1</div>
+<div clas="col-sm-6">column1</div>
+<div clas="col-sm-2">column1</div>
+
+===
+offset
+
+if sm or less break
+if more than sm, first col take 6 cols, second take3 with a gap of 3
+
+                <div class="col-sm-6">column</div>
+                <div class="col-sm-3 offset-sm-3">column</div>
+				
+				
